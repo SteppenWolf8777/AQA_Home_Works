@@ -1,0 +1,19 @@
+[tool.black]
+line-lenght = 90
+target-version = ["py311"]
+exclude '''
+/(
+    \ .git
+  | \.venv
+)/
+'''
+
+
+[tool.isort]
+profile = "black"
+line-lenght = 88
+skip = [
+    "venv",
+    ".venv",
+    ".git"
+]
