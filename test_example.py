@@ -6,3 +6,4 @@ def test_first():
 
 def test_second():
     assert len("Hello") == 5
+    qwwrwrqwr = 123
