@@ -1,11 +1,11 @@
 [tool.black]
-line-length = 33
+line-length = 90
 target-version = ["py311"]
 
 
 [tool.isort]
 profile = "black"
-line_length = 33
+line_length = 88
 skip = [
     "venv",
     ".venv",
